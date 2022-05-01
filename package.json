@@ -1,0 +1,25 @@
+{
+  "name": "covid19-web",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "normalize.css": "^8.0.1",
+    "swiper": "^8.1.4",
+    "vue": "^3.2.25",
+    "vue-awesome-swiper": "^5.0.1",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "less": "^4.1.2",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.5",
+    "vue-tsc": "^0.34.7"
+  }
+}
